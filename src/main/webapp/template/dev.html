@@ -12,7 +12,6 @@
             <div class="col-md-10 col-lg-8 col-xl-7">
                 <div class="site-heading">
                     <h1>Share our food</h1>
-                    <!--                    <span class="subheading">A Blog Theme by Start Bootstrap</span>-->
                 </div>
             </div>
         </div>
@@ -21,7 +20,7 @@
 
 <main>
     <div class="container px-4 px-lg-5">
-        API url: <p><code>/api/foodreview</code></p>
+        API url: <p><code>/api/food-review</code></p>
         <h3>Post</h3>
         <p>GET <code>/all</code></p>
         <div class="small">
@@ -42,7 +41,6 @@
                     <td>optional</td>
                 </tr>
             </table>
-            <!--            exmaple-->
         </div>
         <p>GET <code>/post/{score}</code></p>
         <div class="small">
@@ -52,10 +50,9 @@
                     <td>score</td>
                     <td>integer</td>
                     <td>return post having specified score</td>
-                    <td>requied</td>
+                    <td>required</td>
                 </tr>
             </table>
-            <!--            exmaple-->
         </div>
         <h3>Map</h3>
         <p>GET <code>/map</code></p>
@@ -65,7 +62,6 @@
                     <td>return all locations in geojson format</td>
                 </tr>
             </table>
-            <!--            exmaple-->
         </div>
         <h3>Comment</h3>
         <p>GET <code>/comment/{post_score}</code></p>
@@ -76,10 +72,9 @@
                     <td>post_score</td>
                     <td>integer</td>
                     <td>return all comments of the post specified by post_score</td>
-                    <td>requied</td>
+                    <td>required</td>
                 </tr>
             </table>
-            <!--            exmaple-->
         </div>
         <p>POST <code>/comment/{post_score}</code></p>
         <div class="small">
@@ -89,7 +84,7 @@
                     <td>post_score</td>
                     <td>integer</td>
                     <td>send a comment to the post specified by post_score</td>
-                    <td>requied</td>
+                    <td>required</td>
                 </tr>
             </table>
             <label for="body-comment">Body</label>
